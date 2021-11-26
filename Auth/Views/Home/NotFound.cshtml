@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "NotFound";
+}
+@if (!User.Identity.IsAuthenticated)
+{
+    <div class="text-center">
+        <div class="display-4">NOT FOUND 404</div>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+}
